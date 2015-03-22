@@ -31,7 +31,7 @@
     
     NSDictionary *nameMap = @{ @"colorBlock" : colorBlock };
     NSArray *horizontalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-30-[colorBlock]-30-|" options:0 metrics:nil views:nameMap];
-    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-100-[colorBlock]-200-|" options:0 metrics:nil views:nameMap];
+    NSArray *verticalConstraints = [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-100-[colorBlock]-100-|" options:0 metrics:nil views:nameMap];
     
     [self.view addConstraints:horizontalConstraints];
     [self.view addConstraints:verticalConstraints];
