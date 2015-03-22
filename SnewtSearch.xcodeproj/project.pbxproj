@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2ADCB3BF1ABF56E800D8AD23 /* NavItemSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3BE1ABF56E800D8AD23 /* NavItemSearchViewController.m */; };
+		2ADCB3C31ABF5C7400D8AD23 /* TableSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3C21ABF5C7400D8AD23 /* TableSearchViewController.m */; };
+		2ADCB3C61ABF5D3300D8AD23 /* TableResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3C51ABF5D3300D8AD23 /* TableResultsViewController.m */; };
 		DC0139C11AB47B2C004D4C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0139C01AB47B2C004D4C5F /* main.m */; };
 		DC0139C41AB47B2C004D4C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0139C31AB47B2C004D4C5F /* AppDelegate.m */; };
 		DC0139C71AB47B2C004D4C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0139C61AB47B2C004D4C5F /* ViewController.m */; };
@@ -31,6 +33,10 @@
 /* Begin PBXFileReference section */
 		2ADCB3BD1ABF56E800D8AD23 /* NavItemSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavItemSearchViewController.h; sourceTree = "<group>"; };
 		2ADCB3BE1ABF56E800D8AD23 /* NavItemSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavItemSearchViewController.m; sourceTree = "<group>"; };
+		2ADCB3C11ABF5C7400D8AD23 /* TableSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSearchViewController.h; sourceTree = "<group>"; };
+		2ADCB3C21ABF5C7400D8AD23 /* TableSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSearchViewController.m; sourceTree = "<group>"; };
+		2ADCB3C41ABF5D3300D8AD23 /* TableResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableResultsViewController.h; sourceTree = "<group>"; };
+		2ADCB3C51ABF5D3300D8AD23 /* TableResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableResultsViewController.m; sourceTree = "<group>"; };
 		DC0139BB1AB47B2C004D4C5F /* SnewtSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnewtSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0139BF1AB47B2C004D4C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC0139C01AB47B2C004D4C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +92,17 @@
 			name = "Navigation Bar";
 			sourceTree = "<group>";
 		};
+		2ADCB3C71ABF5E3300D8AD23 /* Table View Header */ = {
+			isa = PBXGroup;
+			children = (
+				2ADCB3C11ABF5C7400D8AD23 /* TableSearchViewController.h */,
+				2ADCB3C21ABF5C7400D8AD23 /* TableSearchViewController.m */,
+				2ADCB3C41ABF5D3300D8AD23 /* TableResultsViewController.h */,
+				2ADCB3C51ABF5D3300D8AD23 /* TableResultsViewController.m */,
+			);
+			name = "Table View Header";
+			sourceTree = "<group>";
+		};
 		DC0139B21AB47B2C004D4C5F = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +128,7 @@
 				DC0139C31AB47B2C004D4C5F /* AppDelegate.m */,
 				2ADCB3BC1ABF56B400D8AD23 /* Simple */,
 				2ADCB3C01ABF5A0500D8AD23 /* Navigation Bar */,
+				2ADCB3C71ABF5E3300D8AD23 /* Table View Header */,
 				DC0139C81AB47B2C004D4C5F /* Main.storyboard */,
 				DC0139CB1AB47B2C004D4C5F /* Images.xcassets */,
 				DC0139CD1AB47B2C004D4C5F /* LaunchScreen.xib */,
@@ -248,7 +266,9 @@
 				2ADCB3BF1ABF56E800D8AD23 /* NavItemSearchViewController.m in Sources */,
 				DC0139C71AB47B2C004D4C5F /* ViewController.m in Sources */,
 				DC0139C41AB47B2C004D4C5F /* AppDelegate.m in Sources */,
+				2ADCB3C31ABF5C7400D8AD23 /* TableSearchViewController.m in Sources */,
 				DC0139E61AB47FED004D4C5F /* ResultsViewController.m in Sources */,
+				2ADCB3C61ABF5D3300D8AD23 /* TableResultsViewController.m in Sources */,
 				DC0139C11AB47B2C004D4C5F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
