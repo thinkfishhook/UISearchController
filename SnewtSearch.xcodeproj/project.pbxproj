@@ -10,6 +10,9 @@
 		2ADCB3BF1ABF56E800D8AD23 /* NavItemSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3BE1ABF56E800D8AD23 /* NavItemSearchViewController.m */; };
 		2ADCB3C31ABF5C7400D8AD23 /* TableSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3C21ABF5C7400D8AD23 /* TableSearchViewController.m */; };
 		2ADCB3C61ABF5D3300D8AD23 /* TableResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3C51ABF5D3300D8AD23 /* TableResultsViewController.m */; };
+		2ADCB3CA1ABF62D500D8AD23 /* AdvancedTableSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3C91ABF62D500D8AD23 /* AdvancedTableSearchViewController.m */; };
+		2ADCB3CD1ABF631400D8AD23 /* AdvancedTableResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3CC1ABF631400D8AD23 /* AdvancedTableResultsViewController.m */; };
+		2ADCB3D41ABF675200D8AD23 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3D31ABF675200D8AD23 /* DetailViewController.m */; };
 		DC0139C11AB47B2C004D4C5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0139C01AB47B2C004D4C5F /* main.m */; };
 		DC0139C41AB47B2C004D4C5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0139C31AB47B2C004D4C5F /* AppDelegate.m */; };
 		DC0139C71AB47B2C004D4C5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0139C61AB47B2C004D4C5F /* ViewController.m */; };
@@ -37,6 +40,13 @@
 		2ADCB3C21ABF5C7400D8AD23 /* TableSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableSearchViewController.m; sourceTree = "<group>"; };
 		2ADCB3C41ABF5D3300D8AD23 /* TableResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableResultsViewController.h; sourceTree = "<group>"; };
 		2ADCB3C51ABF5D3300D8AD23 /* TableResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableResultsViewController.m; sourceTree = "<group>"; };
+		2ADCB3C81ABF62D500D8AD23 /* AdvancedTableSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedTableSearchViewController.h; sourceTree = "<group>"; };
+		2ADCB3C91ABF62D500D8AD23 /* AdvancedTableSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedTableSearchViewController.m; sourceTree = "<group>"; };
+		2ADCB3CB1ABF631400D8AD23 /* AdvancedTableResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedTableResultsViewController.h; sourceTree = "<group>"; };
+		2ADCB3CC1ABF631400D8AD23 /* AdvancedTableResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedTableResultsViewController.m; sourceTree = "<group>"; };
+		2ADCB3CF1ABF641900D8AD23 /* TableResultsViewController+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TableResultsViewController+Private.h"; sourceTree = "<group>"; };
+		2ADCB3D21ABF675200D8AD23 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2ADCB3D31ABF675200D8AD23 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		DC0139BB1AB47B2C004D4C5F /* SnewtSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnewtSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC0139BF1AB47B2C004D4C5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC0139C01AB47B2C004D4C5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +113,20 @@
 			name = "Table View Header";
 			sourceTree = "<group>";
 		};
+		2ADCB3CE1ABF63F900D8AD23 /* Table View w/ Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2ADCB3C81ABF62D500D8AD23 /* AdvancedTableSearchViewController.h */,
+				2ADCB3C91ABF62D500D8AD23 /* AdvancedTableSearchViewController.m */,
+				2ADCB3CB1ABF631400D8AD23 /* AdvancedTableResultsViewController.h */,
+				2ADCB3CC1ABF631400D8AD23 /* AdvancedTableResultsViewController.m */,
+				2ADCB3CF1ABF641900D8AD23 /* TableResultsViewController+Private.h */,
+				2ADCB3D21ABF675200D8AD23 /* DetailViewController.h */,
+				2ADCB3D31ABF675200D8AD23 /* DetailViewController.m */,
+			);
+			name = "Table View w/ Navigation";
+			sourceTree = "<group>";
+		};
 		DC0139B21AB47B2C004D4C5F = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +157,7 @@
 				DC0139CB1AB47B2C004D4C5F /* Images.xcassets */,
 				DC0139CD1AB47B2C004D4C5F /* LaunchScreen.xib */,
 				DC0139BE1AB47B2C004D4C5F /* Supporting Files */,
+				2ADCB3CE1ABF63F900D8AD23 /* Table View w/ Navigation */,
 			);
 			path = SnewtSearch;
 			sourceTree = "<group>";
@@ -264,11 +289,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ADCB3BF1ABF56E800D8AD23 /* NavItemSearchViewController.m in Sources */,
+				2ADCB3CA1ABF62D500D8AD23 /* AdvancedTableSearchViewController.m in Sources */,
 				DC0139C71AB47B2C004D4C5F /* ViewController.m in Sources */,
 				DC0139C41AB47B2C004D4C5F /* AppDelegate.m in Sources */,
 				2ADCB3C31ABF5C7400D8AD23 /* TableSearchViewController.m in Sources */,
+				2ADCB3D41ABF675200D8AD23 /* DetailViewController.m in Sources */,
 				DC0139E61AB47FED004D4C5F /* ResultsViewController.m in Sources */,
 				2ADCB3C61ABF5D3300D8AD23 /* TableResultsViewController.m in Sources */,
+				2ADCB3CD1ABF631400D8AD23 /* AdvancedTableResultsViewController.m in Sources */,
 				DC0139C11AB47B2C004D4C5F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

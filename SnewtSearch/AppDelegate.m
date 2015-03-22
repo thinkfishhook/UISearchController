@@ -3,23 +3,21 @@
 //
 
 #import "AppDelegate.h"
-#import "TableSearchViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSArray *data = @[ @"Red", @"Blue", @"Yellow", @"Green", @"Purple", @"Orange" ];
+    
     UITabBarController *tabBarController = (id)self.window.rootViewController;
     
-    TableSearchViewController *tableSearchViewController;
     for (UINavigationController *navigationController in tabBarController.viewControllers) {
         if ([navigationController.topViewController respondsToSelector:@selector(setData:)]) {
-            tableSearchViewController = (id)navigationController.topViewController;
+            
+            [navigationController.topViewController setValue:data forKey:@"data"];
         }
     }
-    
-    NSArray *data = @[ @"Red", @"Blue", @"Yellow", @"Green", @"Purple", @"Orange" ];
-    [tableSearchViewController setData:data];
     
     return YES;
 }

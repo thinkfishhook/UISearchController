@@ -3,6 +3,7 @@
 //
 
 #import "TableResultsViewController.h"
+#import "TableResultsViewController+Private.h"
 
 //----------------------------------------------------------------------------//
 
@@ -53,6 +54,13 @@ static NSString * CellIdentifier = @"Results Cell";
         self.results = [self.data filteredArrayUsingPredicate:searchPredicate];
         [self.tableView reloadData];
     }
+}
+
+#pragma mark - Private Helpers
+
+- (id)dataItemForIndexPath:(NSIndexPath *)indexPath
+{
+    return self.results[indexPath.row];
 }
 
 @end
