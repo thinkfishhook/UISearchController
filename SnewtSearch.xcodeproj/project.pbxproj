@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A58BD2E1AC5DB18000A1507 /* SearchAndResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A58BD2D1AC5DB18000A1507 /* SearchAndResultsTableViewController.m */; };
 		2ADCB3BF1ABF56E800D8AD23 /* NavItemSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3BE1ABF56E800D8AD23 /* NavItemSearchViewController.m */; };
 		2ADCB3C31ABF5C7400D8AD23 /* TableSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3C21ABF5C7400D8AD23 /* TableSearchViewController.m */; };
 		2ADCB3C61ABF5D3300D8AD23 /* TableResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCB3C51ABF5D3300D8AD23 /* TableResultsViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A58BD2C1AC5DB18000A1507 /* SearchAndResultsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchAndResultsTableViewController.h; sourceTree = "<group>"; };
+		2A58BD2D1AC5DB18000A1507 /* SearchAndResultsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchAndResultsTableViewController.m; sourceTree = "<group>"; };
 		2ADCB3BD1ABF56E800D8AD23 /* NavItemSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavItemSearchViewController.h; sourceTree = "<group>"; };
 		2ADCB3BE1ABF56E800D8AD23 /* NavItemSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavItemSearchViewController.m; sourceTree = "<group>"; };
 		2ADCB3C11ABF5C7400D8AD23 /* TableSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableSearchViewController.h; sourceTree = "<group>"; };
@@ -82,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A58BD2F1AC5FCBF000A1507 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				2A58BD2C1AC5DB18000A1507 /* SearchAndResultsTableViewController.h */,
+				2A58BD2D1AC5DB18000A1507 /* SearchAndResultsTableViewController.m */,
+			);
+			name = Single;
+			sourceTree = "<group>";
+		};
 		2ADCB3BC1ABF56B400D8AD23 /* Simple */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,11 +165,12 @@
 				2ADCB3BC1ABF56B400D8AD23 /* Simple */,
 				2ADCB3C01ABF5A0500D8AD23 /* Navigation Bar */,
 				2ADCB3C71ABF5E3300D8AD23 /* Table View Header */,
+				2ADCB3CE1ABF63F900D8AD23 /* Table View w/ Navigation */,
+				2A58BD2F1AC5FCBF000A1507 /* Single */,
 				DC0139C81AB47B2C004D4C5F /* Main.storyboard */,
 				DC0139CB1AB47B2C004D4C5F /* Images.xcassets */,
 				DC0139CD1AB47B2C004D4C5F /* LaunchScreen.xib */,
 				DC0139BE1AB47B2C004D4C5F /* Supporting Files */,
-				2ADCB3CE1ABF63F900D8AD23 /* Table View w/ Navigation */,
 			);
 			path = SnewtSearch;
 			sourceTree = "<group>";
@@ -288,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A58BD2E1AC5DB18000A1507 /* SearchAndResultsTableViewController.m in Sources */,
 				2ADCB3BF1ABF56E800D8AD23 /* NavItemSearchViewController.m in Sources */,
 				2ADCB3CA1ABF62D500D8AD23 /* AdvancedTableSearchViewController.m in Sources */,
 				DC0139C71AB47B2C004D4C5F /* ViewController.m in Sources */,
